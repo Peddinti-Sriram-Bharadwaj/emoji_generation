@@ -1,0 +1,72 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+projectenv/
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Data and dataset artifacts
+data/
+*.lock
+*.zip
+*.tar
+*.tar.gz
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# Model checkpoints and weights
+*.pt
+*.pth
+models/*.pt
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Evaluation and visualization outputs
+evaluation_*.png
+reconstruction_*.png
+reconstructions.png
+reconstruction_samples.png
+*.gif
+
+# Generated latent & intermediate data
+dataset_latents.pt
+precompute_latents.py
+generations/
+outputs/
+results/
+wandb/
+runs/
+lightning_logs/
+
+# OS / Editor specific
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python build / dist files
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Fonts and assets (optional: keep if needed)
+*.ttf
+*.otf
+
+# Configurations (keep pyvenv.cfg if not required)
+pyvenv.cfg
+

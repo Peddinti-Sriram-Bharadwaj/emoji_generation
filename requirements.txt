@@ -1,0 +1,13 @@
+torch
+torchvision
+datasets
+transformers
+pillow
+scikit-image
+tqdm
+numpy
+matplotlib
+torchmetrics
+imageio
+imageio[pyav]
+torch-fidelity
